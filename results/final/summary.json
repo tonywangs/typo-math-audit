@@ -1,0 +1,375 @@
+{
+  "artifact_sizes_before_report": {
+    "cases.jsonl": 1334245,
+    "outputs.jsonl": 3104423,
+    "questions.jsonl": 75763,
+    "run.json": 4934,
+    "session-1790667277959672638.json": 870,
+    "status.json": 67
+  },
+  "bootstrap": {
+    "confidence": 0.95,
+    "note": "Marginal percentile intervals; not simultaneous; template uncertainty unmeasured",
+    "replicates": 10000,
+    "seed": 62103,
+    "stratified_by": "family",
+    "unit": "original question"
+  },
+  "conditions": {
+    "clean": {
+      "accuracy": 0.0,
+      "accuracy_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_zero_clean_correct_replicates": 10000,
+      "both_correct": 0,
+      "both_incorrect": 210,
+      "break_rate_ci95": [
+        null,
+        null
+      ],
+      "break_rate_given_clean_correct": null,
+      "by_family": {
+        "addition": {
+          "correct": 0,
+          "denominator": 70
+        },
+        "multiplication": {
+          "correct": 0,
+          "denominator": 70
+        },
+        "subtraction": {
+          "correct": 0,
+          "denominator": 70
+        }
+      },
+      "clean_correct_denominator": 0,
+      "clean_correct_to_incorrect": 0,
+      "clean_incorrect_to_correct": 0,
+      "correct": 0,
+      "denominator": 210,
+      "invalid": 85,
+      "mean_input_tokens": 45.042857142857144,
+      "mean_output_tokens": 20.29047619047619,
+      "mean_realized_all_word_rate": 0.0,
+      "mean_realized_eligible_word_rate": 0.0,
+      "paired_delta": 0.0,
+      "paired_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "possible_meaning_change": 0,
+      "total_generation_seconds": 1275.8973723172676,
+      "truncated": 125,
+      "unchanged": 210
+    },
+    "delete-20": {
+      "accuracy": 0.0,
+      "accuracy_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_zero_clean_correct_replicates": 10000,
+      "both_correct": 0,
+      "both_incorrect": 210,
+      "break_rate_ci95": [
+        null,
+        null
+      ],
+      "break_rate_given_clean_correct": null,
+      "by_family": {
+        "addition": {
+          "correct": 0,
+          "denominator": 70
+        },
+        "multiplication": {
+          "correct": 0,
+          "denominator": 70
+        },
+        "subtraction": {
+          "correct": 0,
+          "denominator": 70
+        }
+      },
+      "clean_correct_denominator": 0,
+      "clean_correct_to_incorrect": 0,
+      "clean_incorrect_to_correct": 0,
+      "correct": 0,
+      "denominator": 210,
+      "invalid": 128,
+      "mean_input_tokens": 46.214285714285715,
+      "mean_output_tokens": 17.85238095238095,
+      "mean_realized_all_word_rate": 0.06666666666666665,
+      "mean_realized_eligible_word_rate": 0.2,
+      "paired_delta": 0.0,
+      "paired_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "possible_meaning_change": 210,
+      "total_generation_seconds": 1146.9645828818902,
+      "truncated": 82,
+      "unchanged": 0
+    },
+    "delete-40": {
+      "accuracy": 0.0,
+      "accuracy_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_zero_clean_correct_replicates": 10000,
+      "both_correct": 0,
+      "both_incorrect": 210,
+      "break_rate_ci95": [
+        null,
+        null
+      ],
+      "break_rate_given_clean_correct": null,
+      "by_family": {
+        "addition": {
+          "correct": 0,
+          "denominator": 70
+        },
+        "multiplication": {
+          "correct": 0,
+          "denominator": 70
+        },
+        "subtraction": {
+          "correct": 0,
+          "denominator": 70
+        }
+      },
+      "clean_correct_denominator": 0,
+      "clean_correct_to_incorrect": 0,
+      "clean_incorrect_to_correct": 0,
+      "correct": 0,
+      "denominator": 210,
+      "invalid": 146,
+      "mean_input_tokens": 47.423809523809524,
+      "mean_output_tokens": 16.761904761904763,
+      "mean_realized_all_word_rate": 0.1333333333333333,
+      "mean_realized_eligible_word_rate": 0.4,
+      "paired_delta": 0.0,
+      "paired_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "possible_meaning_change": 210,
+      "total_generation_seconds": 1090.0233076387085,
+      "truncated": 64,
+      "unchanged": 0
+    },
+    "keyboard-20": {
+      "accuracy": 0.0,
+      "accuracy_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_zero_clean_correct_replicates": 10000,
+      "both_correct": 0,
+      "both_incorrect": 210,
+      "break_rate_ci95": [
+        null,
+        null
+      ],
+      "break_rate_given_clean_correct": null,
+      "by_family": {
+        "addition": {
+          "correct": 0,
+          "denominator": 70
+        },
+        "multiplication": {
+          "correct": 0,
+          "denominator": 70
+        },
+        "subtraction": {
+          "correct": 0,
+          "denominator": 70
+        }
+      },
+      "clean_correct_denominator": 0,
+      "clean_correct_to_incorrect": 0,
+      "clean_incorrect_to_correct": 0,
+      "correct": 0,
+      "denominator": 210,
+      "invalid": 127,
+      "mean_input_tokens": 46.680952380952384,
+      "mean_output_tokens": 17.847619047619048,
+      "mean_realized_all_word_rate": 0.06666666666666665,
+      "mean_realized_eligible_word_rate": 0.2,
+      "paired_delta": 0.0,
+      "paired_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "possible_meaning_change": 210,
+      "total_generation_seconds": 1144.9810229360592,
+      "truncated": 83,
+      "unchanged": 0
+    },
+    "keyboard-40": {
+      "accuracy": 0.0,
+      "accuracy_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_zero_clean_correct_replicates": 10000,
+      "both_correct": 0,
+      "both_incorrect": 210,
+      "break_rate_ci95": [
+        null,
+        null
+      ],
+      "break_rate_given_clean_correct": null,
+      "by_family": {
+        "addition": {
+          "correct": 0,
+          "denominator": 70
+        },
+        "multiplication": {
+          "correct": 0,
+          "denominator": 70
+        },
+        "subtraction": {
+          "correct": 0,
+          "denominator": 70
+        }
+      },
+      "clean_correct_denominator": 0,
+      "clean_correct_to_incorrect": 0,
+      "clean_incorrect_to_correct": 0,
+      "correct": 0,
+      "denominator": 210,
+      "invalid": 141,
+      "mean_input_tokens": 48.36190476190476,
+      "mean_output_tokens": 16.8,
+      "mean_realized_all_word_rate": 0.1333333333333333,
+      "mean_realized_eligible_word_rate": 0.4,
+      "paired_delta": 0.0,
+      "paired_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "possible_meaning_change": 210,
+      "total_generation_seconds": 1083.1973048271611,
+      "truncated": 69,
+      "unchanged": 0
+    },
+    "transpose-20": {
+      "accuracy": 0.0,
+      "accuracy_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_zero_clean_correct_replicates": 10000,
+      "both_correct": 0,
+      "both_incorrect": 210,
+      "break_rate_ci95": [
+        null,
+        null
+      ],
+      "break_rate_given_clean_correct": null,
+      "by_family": {
+        "addition": {
+          "correct": 0,
+          "denominator": 70
+        },
+        "multiplication": {
+          "correct": 0,
+          "denominator": 70
+        },
+        "subtraction": {
+          "correct": 0,
+          "denominator": 70
+        }
+      },
+      "clean_correct_denominator": 0,
+      "clean_correct_to_incorrect": 0,
+      "clean_incorrect_to_correct": 0,
+      "correct": 0,
+      "denominator": 210,
+      "invalid": 133,
+      "mean_input_tokens": 46.976190476190474,
+      "mean_output_tokens": 17.409523809523808,
+      "mean_realized_all_word_rate": 0.06666666666666665,
+      "mean_realized_eligible_word_rate": 0.2,
+      "paired_delta": 0.0,
+      "paired_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "possible_meaning_change": 210,
+      "total_generation_seconds": 1117.4866654626094,
+      "truncated": 77,
+      "unchanged": 0
+    },
+    "transpose-40": {
+      "accuracy": 0.0,
+      "accuracy_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_zero_clean_correct_replicates": 10000,
+      "both_correct": 0,
+      "both_incorrect": 210,
+      "break_rate_ci95": [
+        null,
+        null
+      ],
+      "break_rate_given_clean_correct": null,
+      "by_family": {
+        "addition": {
+          "correct": 0,
+          "denominator": 70
+        },
+        "multiplication": {
+          "correct": 0,
+          "denominator": 70
+        },
+        "subtraction": {
+          "correct": 0,
+          "denominator": 70
+        }
+      },
+      "clean_correct_denominator": 0,
+      "clean_correct_to_incorrect": 0,
+      "clean_incorrect_to_correct": 0,
+      "correct": 0,
+      "denominator": 210,
+      "invalid": 154,
+      "mean_input_tokens": 48.89523809523809,
+      "mean_output_tokens": 16.69047619047619,
+      "mean_realized_all_word_rate": 0.1333333333333333,
+      "mean_realized_eligible_word_rate": 0.4,
+      "paired_delta": 0.0,
+      "paired_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "possible_meaning_change": 210,
+      "total_generation_seconds": 1086.319627721794,
+      "truncated": 56,
+      "unchanged": 0
+    }
+  },
+  "excluded_incomplete_questions": 0,
+  "excluded_records": 0,
+  "integrity": {
+    "cases_sha256": "9bb94cdfd0f19acd4d142312f58d1f26acba04c1cbacbb65fe309dc14fc4470b",
+    "complete": true,
+    "expected_records": 1470,
+    "outputs_sha256": "8e16d805d235c03f5b803dba8b7ac17c014d5cb666fca53c7eafc76bfa7c797d",
+    "protocol_sha256": "d590cca740c2722b35173e5290e7b908c6873eda28587c054056a4231ebcbee2",
+    "questions_sha256": "5f9ce0dcc19bb3894f09c2aef2717a3a5f17ea2cab69f9090cf934674920801d",
+    "records": 1470
+  },
+  "observed_records": 1470,
+  "question_clusters": 210,
+  "runtime": {
+    "note": "Sum of recorded invocation wall times, including loading and verification. A SIGKILL can leave unrecorded invocation time.",
+    "peak_process_rss_kib": 1115104,
+    "recorded_session_wall_seconds": 7974.280103860889,
+    "recorded_sessions": 1
+  }
+}

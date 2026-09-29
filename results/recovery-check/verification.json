@@ -1,0 +1,18 @@
+{
+  "cancel_exit_code": 2,
+  "cancellation_signal": "SIGTERM",
+  "committed_prefix_unchanged": true,
+  "deterministic_comparison": {
+    "exact_fields": "all except per-case elapsed_seconds and dependent record_sha256",
+    "matched_records": 7,
+    "protocol_sha256": "d590cca740c2722b35173e5290e7b908c6873eda28587c054056a4231ebcbee2",
+    "reference_records": 210
+  },
+  "durable_after_resume": 7,
+  "durable_before_cancel": 1,
+  "elapsed_seconds": 137.1154959849082,
+  "offline_guard": "kernel seccomp AF_INET/AF_INET6 denial",
+  "real_model": true,
+  "resume_exit_code": 2,
+  "simulated_partial_tail_recovered": true
+}

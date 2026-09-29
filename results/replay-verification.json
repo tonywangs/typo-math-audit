@@ -1,0 +1,6 @@
+{
+  "exact_fields": "all except per-case elapsed_seconds and dependent record_sha256",
+  "matched_records": 1470,
+  "protocol_sha256": "d590cca740c2722b35173e5290e7b908c6873eda28587c054056a4231ebcbee2",
+  "reference_records": 1470
+}

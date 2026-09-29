@@ -1,0 +1,375 @@
+{
+  "artifact_sizes_before_report": {
+    "cases.jsonl": 190148,
+    "outputs.jsonl": 443702,
+    "questions.jsonl": 10794,
+    "run.json": 4931,
+    "session-1790659282325403828.json": 865,
+    "status.json": 65
+  },
+  "bootstrap": {
+    "confidence": 0.95,
+    "note": "Marginal percentile intervals; not simultaneous; template uncertainty unmeasured",
+    "replicates": 10000,
+    "seed": 62103,
+    "stratified_by": "family",
+    "unit": "original question"
+  },
+  "conditions": {
+    "clean": {
+      "accuracy": 0.0,
+      "accuracy_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_zero_clean_correct_replicates": 10000,
+      "both_correct": 0,
+      "both_incorrect": 30,
+      "break_rate_ci95": [
+        null,
+        null
+      ],
+      "break_rate_given_clean_correct": null,
+      "by_family": {
+        "addition": {
+          "correct": 0,
+          "denominator": 10
+        },
+        "multiplication": {
+          "correct": 0,
+          "denominator": 10
+        },
+        "subtraction": {
+          "correct": 0,
+          "denominator": 10
+        }
+      },
+      "clean_correct_denominator": 0,
+      "clean_correct_to_incorrect": 0,
+      "clean_incorrect_to_correct": 0,
+      "correct": 0,
+      "denominator": 30,
+      "invalid": 13,
+      "mean_input_tokens": 45.333333333333336,
+      "mean_output_tokens": 20.666666666666668,
+      "mean_realized_all_word_rate": 0.0,
+      "mean_realized_eligible_word_rate": 0.0,
+      "paired_delta": 0.0,
+      "paired_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "possible_meaning_change": 0,
+      "total_generation_seconds": 90.07258441648446,
+      "truncated": 17,
+      "unchanged": 30
+    },
+    "delete-20": {
+      "accuracy": 0.0,
+      "accuracy_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_zero_clean_correct_replicates": 10000,
+      "both_correct": 0,
+      "both_incorrect": 30,
+      "break_rate_ci95": [
+        null,
+        null
+      ],
+      "break_rate_given_clean_correct": null,
+      "by_family": {
+        "addition": {
+          "correct": 0,
+          "denominator": 10
+        },
+        "multiplication": {
+          "correct": 0,
+          "denominator": 10
+        },
+        "subtraction": {
+          "correct": 0,
+          "denominator": 10
+        }
+      },
+      "clean_correct_denominator": 0,
+      "clean_correct_to_incorrect": 0,
+      "clean_incorrect_to_correct": 0,
+      "correct": 0,
+      "denominator": 30,
+      "invalid": 16,
+      "mean_input_tokens": 46.5,
+      "mean_output_tokens": 19.333333333333332,
+      "mean_realized_all_word_rate": 0.06666666666666667,
+      "mean_realized_eligible_word_rate": 0.20000000000000007,
+      "paired_delta": 0.0,
+      "paired_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "possible_meaning_change": 30,
+      "total_generation_seconds": 86.47217861167155,
+      "truncated": 14,
+      "unchanged": 0
+    },
+    "delete-40": {
+      "accuracy": 0.0,
+      "accuracy_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_zero_clean_correct_replicates": 10000,
+      "both_correct": 0,
+      "both_incorrect": 30,
+      "break_rate_ci95": [
+        null,
+        null
+      ],
+      "break_rate_given_clean_correct": null,
+      "by_family": {
+        "addition": {
+          "correct": 0,
+          "denominator": 10
+        },
+        "multiplication": {
+          "correct": 0,
+          "denominator": 10
+        },
+        "subtraction": {
+          "correct": 0,
+          "denominator": 10
+        }
+      },
+      "clean_correct_denominator": 0,
+      "clean_correct_to_incorrect": 0,
+      "clean_incorrect_to_correct": 0,
+      "correct": 0,
+      "denominator": 30,
+      "invalid": 23,
+      "mean_input_tokens": 47.8,
+      "mean_output_tokens": 16.3,
+      "mean_realized_all_word_rate": 0.13333333333333333,
+      "mean_realized_eligible_word_rate": 0.40000000000000013,
+      "paired_delta": 0.0,
+      "paired_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "possible_meaning_change": 30,
+      "total_generation_seconds": 76.0010450577829,
+      "truncated": 7,
+      "unchanged": 0
+    },
+    "keyboard-20": {
+      "accuracy": 0.0,
+      "accuracy_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_zero_clean_correct_replicates": 10000,
+      "both_correct": 0,
+      "both_incorrect": 30,
+      "break_rate_ci95": [
+        null,
+        null
+      ],
+      "break_rate_given_clean_correct": null,
+      "by_family": {
+        "addition": {
+          "correct": 0,
+          "denominator": 10
+        },
+        "multiplication": {
+          "correct": 0,
+          "denominator": 10
+        },
+        "subtraction": {
+          "correct": 0,
+          "denominator": 10
+        }
+      },
+      "clean_correct_denominator": 0,
+      "clean_correct_to_incorrect": 0,
+      "clean_incorrect_to_correct": 0,
+      "correct": 0,
+      "denominator": 30,
+      "invalid": 17,
+      "mean_input_tokens": 47.13333333333333,
+      "mean_output_tokens": 18.8,
+      "mean_realized_all_word_rate": 0.06666666666666667,
+      "mean_realized_eligible_word_rate": 0.20000000000000007,
+      "paired_delta": 0.0,
+      "paired_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "possible_meaning_change": 30,
+      "total_generation_seconds": 90.75777131225914,
+      "truncated": 13,
+      "unchanged": 0
+    },
+    "keyboard-40": {
+      "accuracy": 0.0,
+      "accuracy_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_zero_clean_correct_replicates": 10000,
+      "both_correct": 0,
+      "both_incorrect": 30,
+      "break_rate_ci95": [
+        null,
+        null
+      ],
+      "break_rate_given_clean_correct": null,
+      "by_family": {
+        "addition": {
+          "correct": 0,
+          "denominator": 10
+        },
+        "multiplication": {
+          "correct": 0,
+          "denominator": 10
+        },
+        "subtraction": {
+          "correct": 0,
+          "denominator": 10
+        }
+      },
+      "clean_correct_denominator": 0,
+      "clean_correct_to_incorrect": 0,
+      "clean_incorrect_to_correct": 0,
+      "correct": 0,
+      "denominator": 30,
+      "invalid": 17,
+      "mean_input_tokens": 48.666666666666664,
+      "mean_output_tokens": 19.033333333333335,
+      "mean_realized_all_word_rate": 0.13333333333333333,
+      "mean_realized_eligible_word_rate": 0.40000000000000013,
+      "paired_delta": 0.0,
+      "paired_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "possible_meaning_change": 30,
+      "total_generation_seconds": 88.47614834015258,
+      "truncated": 13,
+      "unchanged": 0
+    },
+    "transpose-20": {
+      "accuracy": 0.0,
+      "accuracy_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_zero_clean_correct_replicates": 10000,
+      "both_correct": 0,
+      "both_incorrect": 30,
+      "break_rate_ci95": [
+        null,
+        null
+      ],
+      "break_rate_given_clean_correct": null,
+      "by_family": {
+        "addition": {
+          "correct": 0,
+          "denominator": 10
+        },
+        "multiplication": {
+          "correct": 0,
+          "denominator": 10
+        },
+        "subtraction": {
+          "correct": 0,
+          "denominator": 10
+        }
+      },
+      "clean_correct_denominator": 0,
+      "clean_correct_to_incorrect": 0,
+      "clean_incorrect_to_correct": 0,
+      "correct": 0,
+      "denominator": 30,
+      "invalid": 19,
+      "mean_input_tokens": 47.1,
+      "mean_output_tokens": 17.866666666666667,
+      "mean_realized_all_word_rate": 0.06666666666666667,
+      "mean_realized_eligible_word_rate": 0.20000000000000007,
+      "paired_delta": 0.0,
+      "paired_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "possible_meaning_change": 30,
+      "total_generation_seconds": 78.9672814856749,
+      "truncated": 11,
+      "unchanged": 0
+    },
+    "transpose-40": {
+      "accuracy": 0.0,
+      "accuracy_ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_zero_clean_correct_replicates": 10000,
+      "both_correct": 0,
+      "both_incorrect": 30,
+      "break_rate_ci95": [
+        null,
+        null
+      ],
+      "break_rate_given_clean_correct": null,
+      "by_family": {
+        "addition": {
+          "correct": 0,
+          "denominator": 10
+        },
+        "multiplication": {
+          "correct": 0,
+          "denominator": 10
+        },
+        "subtraction": {
+          "correct": 0,
+          "denominator": 10
+        }
+      },
+      "clean_correct_denominator": 0,
+      "clean_correct_to_incorrect": 0,
+      "clean_incorrect_to_correct": 0,
+      "correct": 0,
+      "denominator": 30,
+      "invalid": 22,
+      "mean_input_tokens": 48.9,
+      "mean_output_tokens": 16.933333333333334,
+      "mean_realized_all_word_rate": 0.13333333333333333,
+      "mean_realized_eligible_word_rate": 0.40000000000000013,
+      "paired_delta": 0.0,
+      "paired_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "possible_meaning_change": 30,
+      "total_generation_seconds": 77.11511442321353,
+      "truncated": 8,
+      "unchanged": 0
+    }
+  },
+  "excluded_incomplete_questions": 0,
+  "excluded_records": 0,
+  "integrity": {
+    "cases_sha256": "92ae5f161b3812dfea5d7ac672c45eae9b9c990c4a0c50f9bf7657a1785c3b6b",
+    "complete": true,
+    "expected_records": 210,
+    "outputs_sha256": "4036bfee93191f21b1153644979114c5d64774c3bdecf1034a6818d87585e6e5",
+    "protocol_sha256": "d590cca740c2722b35173e5290e7b908c6873eda28587c054056a4231ebcbee2",
+    "questions_sha256": "c70c981942c7afdb20ed2f3a9be08be1629cae589970f5deac8e30aa0c05e753",
+    "records": 210
+  },
+  "observed_records": 210,
+  "question_clusters": 30,
+  "runtime": {
+    "note": "Sum of recorded invocation wall times, including loading and verification. A SIGKILL can leave unrecorded invocation time.",
+    "peak_process_rss_kib": 1112260,
+    "recorded_session_wall_seconds": 599.2507905699313,
+    "recorded_sessions": 1
+  }
+}

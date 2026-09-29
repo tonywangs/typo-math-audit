@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools==78.1.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "typo-math-audit"
+version = "0.1.0"
+description = "Frozen paired CPU experiment on spelling errors and synthetic arithmetic"
+requires-python = ">=3.12,<3.13"
+dependencies = ["torch==2.6.0", "transformers==4.49.0", "numpy==2.2.3"]
+
+[project.scripts]
+typo-math-audit = "typo_math_audit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+typo_math_audit = ["assets/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

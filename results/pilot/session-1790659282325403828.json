@@ -1,0 +1,28 @@
+{
+  "artifact_bytes": {
+    "cases.jsonl": 190148,
+    "outputs.jsonl": 443702,
+    "questions.jsonl": 10794,
+    "run.json": 4931
+  },
+  "completed_after": 210,
+  "completed_before": 0,
+  "environment": {
+    "cpu_model": "DO-Regular",
+    "logical_cpus": 4,
+    "machine": "x86_64",
+    "peak_rss_unit": "KiB on Linux; process high-water mark including model loading",
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3"
+  },
+  "error": null,
+  "expected_records": 210,
+  "finished_utc": "2026-09-29T05:21:22.321252+00:00",
+  "model_load_seconds": 8.301907710032538,
+  "new_records": 210,
+  "peak_process_rss_kib": 1112260,
+  "protocol_sha256": "d590cca740c2722b35173e5290e7b908c6873eda28587c054056a4231ebcbee2",
+  "started_utc": "2026-09-29T05:11:23.070504+00:00",
+  "state": "complete",
+  "wall_seconds": 599.2507905699313
+}
