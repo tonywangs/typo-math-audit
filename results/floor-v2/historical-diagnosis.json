@@ -1,0 +1,251 @@
+{
+  "note": "Post-hoc descriptive diagnosis only. Original scores remain authoritative for v1. Unsupported text is not automatically incorrect arithmetic; no broad prose extraction or typo effect is inferred.",
+  "runs": {
+    "final": {
+      "counts": {
+        "original_invalid_format": 914,
+        "original_truncated": 556,
+        "truncated_not_assessed": 556,
+        "unsupported_not_assessed": 396,
+        "whole_response_grammar_correct": 315,
+        "whole_response_grammar_wrong": 203
+      },
+      "examples": [
+        {
+          "case_id": "eval-addition-000:clean",
+          "completion": "To calculate the sum of 7 and 15, we need to follow these steps:\n\n1. Subtract",
+          "diagnostic_category": "truncated_not_assessed",
+          "extraction_kind": "unsupported",
+          "original_correct": false,
+          "original_status": "truncated",
+          "truncated": true
+        },
+        {
+          "case_id": "eval-addition-000:transpose-20",
+          "completion": "To calculate the sum of 7 and 15, we need to follow these steps:\n\n1. Subtract",
+          "diagnostic_category": "truncated_not_assessed",
+          "extraction_kind": "unsupported",
+          "original_correct": false,
+          "original_status": "truncated",
+          "truncated": true
+        },
+        {
+          "case_id": "eval-addition-000:transpose-40",
+          "completion": "To calculate the sum of 7 and 15, we need to follow these steps:\n\n1. Subtract",
+          "diagnostic_category": "truncated_not_assessed",
+          "extraction_kind": "unsupported",
+          "original_correct": false,
+          "original_status": "truncated",
+          "truncated": true
+        },
+        {
+          "case_id": "eval-addition-000:delete-20",
+          "completion": "To calculate the sum of 7 and 15, we need to follow these steps:\n\n1. Subtract",
+          "diagnostic_category": "truncated_not_assessed",
+          "extraction_kind": "unsupported",
+          "original_correct": false,
+          "original_status": "truncated",
+          "truncated": true
+        },
+        {
+          "case_id": "eval-addition-000:keyboard-20",
+          "completion": "To calculate the sum of 7 and 15, we need to follow these steps:\n\n1. Subtract",
+          "diagnostic_category": "truncated_not_assessed",
+          "extraction_kind": "unsupported",
+          "original_correct": false,
+          "original_status": "truncated",
+          "truncated": true
+        },
+        {
+          "case_id": "eval-addition-000:keyboard-40",
+          "completion": "To calculate the sum of 7 and 15, we need to follow these steps:\n\n1. Subtract",
+          "diagnostic_category": "truncated_not_assessed",
+          "extraction_kind": "unsupported",
+          "original_correct": false,
+          "original_status": "truncated",
+          "truncated": true
+        },
+        {
+          "case_id": "eval-addition-001:clean",
+          "completion": "To calculate the sum of 4 and 18, we need to follow these steps:\n\n1. Subtract",
+          "diagnostic_category": "truncated_not_assessed",
+          "extraction_kind": "unsupported",
+          "original_correct": false,
+          "original_status": "truncated",
+          "truncated": true
+        },
+        {
+          "case_id": "eval-addition-001:transpose-20",
+          "completion": "To calculate the sum of 4 and 18, we need to follow these steps:\n\n1. Subtract",
+          "diagnostic_category": "truncated_not_assessed",
+          "extraction_kind": "unsupported",
+          "original_correct": false,
+          "original_status": "truncated",
+          "truncated": true
+        },
+        {
+          "case_id": "eval-addition-001:transpose-40",
+          "completion": "To calculate the sum of 4 and 18, we need to add them together.\n\nThe sum of",
+          "diagnostic_category": "truncated_not_assessed",
+          "extraction_kind": "unsupported",
+          "original_correct": false,
+          "original_status": "truncated",
+          "truncated": true
+        },
+        {
+          "case_id": "eval-addition-001:delete-20",
+          "completion": "To calculate the simplified arithmetic expression, we first need to combine the terms inside the parentheses.\n\nThe expression is ",
+          "diagnostic_category": "truncated_not_assessed",
+          "extraction_kind": "unsupported",
+          "original_correct": false,
+          "original_status": "truncated",
+          "truncated": true
+        },
+        {
+          "case_id": "eval-addition-001:delete-40",
+          "completion": "To calculate the simplified arithmetic expression, we first need to combine the two numbers 4 and 18.\n\n",
+          "diagnostic_category": "truncated_not_assessed",
+          "extraction_kind": "unsupported",
+          "original_correct": false,
+          "original_status": "truncated",
+          "truncated": true
+        },
+        {
+          "case_id": "eval-addition-001:keyboard-20",
+          "completion": "4 + 18 = 22",
+          "diagnostic_category": "whole_response_grammar_correct",
+          "extraction_kind": "equation",
+          "original_correct": false,
+          "original_status": "invalid_format",
+          "truncated": false
+        }
+      ],
+      "original_correct": 0,
+      "outputs_sha256": "8e16d805d235c03f5b803dba8b7ac17c014d5cb666fca53c7eafc76bfa7c797d",
+      "records": 1470
+    },
+    "pilot": {
+      "counts": {
+        "original_invalid_format": 127,
+        "original_truncated": 83,
+        "truncated_not_assessed": 83,
+        "unsupported_not_assessed": 52,
+        "whole_response_grammar_correct": 47,
+        "whole_response_grammar_wrong": 28
+      },
+      "examples": [
+        {
+          "case_id": "dev-addition-000:clean",
+          "completion": "To calculate the sum of 4 and 9, we need to add them together.\n\nThe sum of ",
+          "diagnostic_category": "truncated_not_assessed",
+          "extraction_kind": "unsupported",
+          "original_correct": false,
+          "original_status": "truncated",
+          "truncated": true
+        },
+        {
+          "case_id": "dev-addition-000:transpose-20",
+          "completion": "To calculate the sum of 4 and 9, we need to follow these steps:\n\n1. Subtract ",
+          "diagnostic_category": "truncated_not_assessed",
+          "extraction_kind": "unsupported",
+          "original_correct": false,
+          "original_status": "truncated",
+          "truncated": true
+        },
+        {
+          "case_id": "dev-addition-000:transpose-40",
+          "completion": "4 + 9 = 13",
+          "diagnostic_category": "whole_response_grammar_correct",
+          "extraction_kind": "equation",
+          "original_correct": false,
+          "original_status": "invalid_format",
+          "truncated": false
+        },
+        {
+          "case_id": "dev-addition-000:delete-20",
+          "completion": "To calculate the sum of 4 and 9, we need to follow these steps:\n\n1. Add the numbers",
+          "diagnostic_category": "truncated_not_assessed",
+          "extraction_kind": "unsupported",
+          "original_correct": false,
+          "original_status": "truncated",
+          "truncated": true
+        },
+        {
+          "case_id": "dev-addition-000:delete-40",
+          "completion": "4 + 9 = 13",
+          "diagnostic_category": "whole_response_grammar_correct",
+          "extraction_kind": "equation",
+          "original_correct": false,
+          "original_status": "invalid_format",
+          "truncated": false
+        },
+        {
+          "case_id": "dev-addition-000:keyboard-20",
+          "completion": "To calculate the sum of 4 and 9, we need to add them together.\n\nThe sum of ",
+          "diagnostic_category": "truncated_not_assessed",
+          "extraction_kind": "unsupported",
+          "original_correct": false,
+          "original_status": "truncated",
+          "truncated": true
+        },
+        {
+          "case_id": "dev-addition-000:keyboard-40",
+          "completion": "4 + 9 = 13",
+          "diagnostic_category": "whole_response_grammar_correct",
+          "extraction_kind": "equation",
+          "original_correct": false,
+          "original_status": "invalid_format",
+          "truncated": false
+        },
+        {
+          "case_id": "dev-addition-001:clean",
+          "completion": "17 + 17 = 34",
+          "diagnostic_category": "whole_response_grammar_correct",
+          "extraction_kind": "equation",
+          "original_correct": false,
+          "original_status": "invalid_format",
+          "truncated": false
+        },
+        {
+          "case_id": "dev-addition-001:transpose-20",
+          "completion": "17 + 17 = 34",
+          "diagnostic_category": "whole_response_grammar_correct",
+          "extraction_kind": "equation",
+          "original_correct": false,
+          "original_status": "invalid_format",
+          "truncated": false
+        },
+        {
+          "case_id": "dev-addition-001:transpose-40",
+          "completion": "17 + 17 = 34",
+          "diagnostic_category": "whole_response_grammar_correct",
+          "extraction_kind": "equation",
+          "original_correct": false,
+          "original_status": "invalid_format",
+          "truncated": false
+        },
+        {
+          "case_id": "dev-addition-001:delete-20",
+          "completion": "17 + 17 = 34",
+          "diagnostic_category": "whole_response_grammar_correct",
+          "extraction_kind": "equation",
+          "original_correct": false,
+          "original_status": "invalid_format",
+          "truncated": false
+        },
+        {
+          "case_id": "dev-addition-001:delete-40",
+          "completion": "17 + 17 = 34",
+          "diagnostic_category": "whole_response_grammar_correct",
+          "extraction_kind": "equation",
+          "original_correct": false,
+          "original_status": "invalid_format",
+          "truncated": false
+        }
+      ],
+      "original_correct": 0,
+      "outputs_sha256": "4036bfee93191f21b1153644979114c5d64774c3bdecf1034a6818d87585e6e5",
+      "records": 210
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "created_utc": "2026-09-29T20:15:49.414795+00:00",
+  "environment": {
+    "cpu_model": "DO-Regular",
+    "logical_cpus": 4,
+    "machine": "x86_64",
+    "peak_rss_unit": "KiB on Linux; process high-water mark including model loading",
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3"
+  },
+  "preregistration": {
+    "frozen_utc": "2026-09-29T20:08:52.646628+00:00",
+    "specification": {
+      "dataset_sha256": {
+        "dev": "71d2ec2b3e559c9cf8560c61db46c1b82e30a9a97882b7d80765eb18342dc634",
+        "eval": "1af74e763dae286f40272697c3c0f928544ec26df46c3be614e686faee3d0915"
+      },
+      "dependencies": {
+        "Jinja2": "3.1.6",
+        "MarkupSafe": "3.0.3",
+        "PyYAML": "6.0.3",
+        "build": "1.2.2.post1",
+        "certifi": "2026.7.22",
+        "charset-normalizer": "3.5.1",
+        "filelock": "3.32.3",
+        "fsspec": "2026.7.0",
+        "hf-xet": "1.6.0",
+        "huggingface_hub": "0.36.2",
+        "idna": "3.20",
+        "iniconfig": "2.3.0",
+        "mpmath": "1.3.0",
+        "networkx": "3.6.1",
+        "numpy": "2.2.3",
+        "packaging": "26.3",
+        "pluggy": "1.6.0",
+        "pyproject_hooks": "1.3.3",
+        "pytest": "8.3.5",
+        "regex": "2026.9.29",
+        "requests": "2.34.2",
+        "safetensors": "0.8.0",
+        "setuptools": "78.1.0",
+        "sympy": "1.13.1",
+        "tokenizers": "0.21.4",
+        "torch": "2.6.0+cpu",
+        "tqdm": "4.70.1",
+        "transformers": "4.49.0",
+        "typing_extensions": "4.16.0",
+        "urllib3": "2.8.0",
+        "wheel": "0.45.1"
+      },
+      "evaluation_budget_seconds": 10800,
+      "historical_specification_sha256": "d590cca740c2722b35173e5290e7b908c6873eda28587c054056a4231ebcbee2",
+      "model": {
+        "files": {
+          "config.json": {
+            "bytes": 861,
+            "sha256": "8eb740e8bbe4cff95ea7b4588d17a2432deb16e8075bc5828ff7ba9be94d982a",
+            "upstream_git_oid": "36293b6099200eb8aeb55ae2c01bca2ba46d80d0"
+          },
+          "generation_config.json": {
+            "bytes": 132,
+            "sha256": "87b916edaaab66b3899b9d0dd0752727dff6666686da0504d89ae0a6e055a013",
+            "upstream_git_oid": "da6c4d71a43aa7e6f785bdbb28ea5025438a73fa"
+          },
+          "merges.txt": {
+            "bytes": 466391,
+            "sha256": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510",
+            "upstream_git_oid": "69503b13f727ba3812b6803e97442a6de05ef5eb"
+          },
+          "model.safetensors": {
+            "bytes": 269060552,
+            "sha256": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c",
+            "upstream_git_oid": "2ef707371406f95f8aa91fb03a75f22f3c568299"
+          },
+          "special_tokens_map.json": {
+            "bytes": 655,
+            "sha256": "2b7379f3ae813529281a5c602bc5a11c1d4e0a99107aaa597fe936c1e813ca52",
+            "upstream_git_oid": "44719d2e365acac0637fd25a3acf46494ca45940"
+          },
+          "tokenizer.json": {
+            "bytes": 2104556,
+            "sha256": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+            "upstream_git_oid": "f922b1797f0c88e71addc8393787831f2477a4bd"
+          },
+          "tokenizer_config.json": {
+            "bytes": 3764,
+            "sha256": "4ec77d44f62efeb38d7e044a1db318f6a939438425312dfa333b8382dbad98df",
+            "upstream_git_oid": "8c7b22013909450429303ed10be4398bd63f5457"
+          },
+          "vocab.json": {
+            "bytes": 800662,
+            "sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79",
+            "upstream_git_oid": "0ad5ecc2035b7031b88afb544ee95e2d49baa484"
+          }
+        },
+        "repo_id": "HuggingFaceTB/SmolLM2-135M-Instruct",
+        "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac"
+      },
+      "pilot_budget_seconds": 1800,
+      "pilot_cases_sha256": "5b86524e3ce19ba8756ebe3cd106e553da36acb2cba8046f60ca8ba5e14e026e",
+      "protocol_document_sha256": "e2ab3b258b87ab3b6229bc6738cf121ba952684277b0e2aebb4070e0e12c2032",
+      "python": "3.12.3",
+      "replay_rule": "dev: all 14 per family, format=index modulo 3; eval: first 2 per family x 7 conditions",
+      "schema": 2,
+      "scoring_tests_sha256": "2b2fd36a07dcac11bc119c201b6ccde738092593f96bf68e2578fc40f3db3dbe",
+      "selection": "42 per format; >=11 correct and >=34 extracted; rank correct, extraction, format order",
+      "settings": {
+        "attention": "eager",
+        "batch_size": 1,
+        "deterministic_algorithms": true,
+        "device": "cpu",
+        "do_sample": false,
+        "dtype": "float32",
+        "interop_threads": 1,
+        "max_new_tokens": 64,
+        "mkldnn": false,
+        "num_beams": 1,
+        "seed": 1907,
+        "threads": 1,
+        "use_cache": true
+      },
+      "source_sha256": {
+        "floor_v2.py": "dafbf559af592e96e22dc5b83286b9539402043336c3b2c6002b94c978a1ba36",
+        "historical_protocol": "8106232e73428dc8571ebad4cb1f2e441047861e4d70cdbaffd9434271cdbf4f"
+      },
+      "templates": {
+        "equation": "Please carefully calculate the following simple arithmetic problem below.\n{expression}\nWrite only the completed equation, like 21 + 1 = 22. No explanation.",
+        "integer": "Please carefully calculate the following simple arithmetic problem below.\n{expression}\nReply with only the integer answer. No explanation.",
+        "label": "Please carefully calculate the following simple arithmetic problem below.\n{expression}\nReply in this format: Answer: <integer>. No explanation."
+      }
+    },
+    "specification_sha256": "3e65c03e1b6f209003e870efd821027084f676cd5e48d1bea343afbb7fc6da4c"
+  },
+  "protocol_sha256": "71bd43de30901388335b156431b62ca021d1469b9f4168b9cf7424d4cc63f08e",
+  "specification": {
+    "cases_sha256": "bee89f1162e2d678445e9525db0e491e7309e507723599a3d3585dc25c8c18e1",
+    "phase": "pilot",
+    "pilot_evidence": null,
+    "preregistration_sha256": "3e65c03e1b6f209003e870efd821027084f676cd5e48d1bea343afbb7fc6da4c",
+    "replay": true,
+    "runtime_budget_seconds": 1800,
+    "selected": null,
+    "split": "dev"
+  }
+}

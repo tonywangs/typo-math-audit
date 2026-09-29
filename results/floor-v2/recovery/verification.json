@@ -1,0 +1,14 @@
+{
+  "cancel_exit": 2,
+  "cancelled_status": {
+    "completed": 1,
+    "expected": 42,
+    "state": "cancelled"
+  },
+  "discarded_tail_hex": "7b2264656c696265726174656c795f746f726e5f7265636f766572795f74657374223a",
+  "offline_guard_verified": true,
+  "outputs_sha256": "af2c52405f9a76e969c3423fb29c8a959cd9793ad39fe87f2b255296cf511cde",
+  "records_after": 2,
+  "records_before": 1,
+  "resume_exit": 2
+}

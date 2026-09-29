@@ -11,6 +11,7 @@ dependencies = ["torch==2.6.0", "transformers==4.49.0", "numpy==2.2.3"]
 
 [project.scripts]
 typo-math-audit = "typo_math_audit.cli:main"
+typo-math-floor = "typo_math_audit.floor_v2:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

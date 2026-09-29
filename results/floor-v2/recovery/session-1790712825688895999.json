@@ -1,0 +1,20 @@
+{
+  "completed_after": 1,
+  "completed_before": 0,
+  "environment": {
+    "cpu_model": "DO-Regular",
+    "logical_cpus": 4,
+    "machine": "x86_64",
+    "peak_rss_unit": "KiB on Linux; process high-water mark including model loading",
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3"
+  },
+  "error": null,
+  "expected": 42,
+  "finished_utc": "2026-09-29T20:13:45.688358+00:00",
+  "peak_process_rss_kib": 1110144,
+  "protocol_sha256": "71bd43de30901388335b156431b62ca021d1469b9f4168b9cf7424d4cc63f08e",
+  "started_utc": "2026-09-29T20:13:14.877330+00:00",
+  "state": "cancelled",
+  "wall_seconds": 30.81108498899266
+}

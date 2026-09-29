@@ -1,0 +1,51 @@
+{
+  "complete": true,
+  "configurations": {
+    "equation": {
+      "correct": 1,
+      "extracted": 11,
+      "extracted_wrong": 10,
+      "n": 42,
+      "strict_compliant": 11,
+      "strict_correct": 1,
+      "truncated": 0,
+      "unsupported_nontruncated": 31
+    },
+    "integer": {
+      "correct": 15,
+      "extracted": 29,
+      "extracted_wrong": 14,
+      "n": 42,
+      "strict_compliant": 0,
+      "strict_correct": 0,
+      "truncated": 0,
+      "unsupported_nontruncated": 13
+    },
+    "label": {
+      "correct": 12,
+      "extracted": 26,
+      "extracted_wrong": 14,
+      "n": 42,
+      "strict_compliant": 0,
+      "strict_correct": 0,
+      "truncated": 0,
+      "unsupported_nontruncated": 16
+    }
+  },
+  "decision": "fail",
+  "evidence": {
+    "complete": true,
+    "expected": 126,
+    "outputs_sha256": "9be357f717b6a19ec4ded3726dfd0e6a9f4f45e2b1a5bfbbd9674aa4825630b7",
+    "protocol_sha256": "bbf431106ca5390adfbbc0ee0d151445621672c335a1f13379739e968cce5bc2",
+    "records": 126
+  },
+  "measurement": {
+    "generated_tokens": 2073,
+    "peak_process_rss_kib": 1112032,
+    "sessions": 1,
+    "summed_generation_seconds": 475.3168437287677,
+    "wall_seconds": 484.73304390511476
+  },
+  "selected": null
+}

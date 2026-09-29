@@ -1,0 +1,11 @@
+{
+  "installed_package": "/tmp/typo-math-offline-venv/lib/python3.12/site-packages/typo_math_audit/__init__.py",
+  "network_guard_verified": true,
+  "python_isolation_flags": [
+    "-I"
+  ],
+  "source_imports_disabled": true,
+  "venv": "/tmp/typo-math-offline-venv",
+  "wheel": "/tmp/typo-v2-wheels/typo_math_audit-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "087ddffeab431ad06e1fabe6c322607bc0f45afa9e7aa75493a2330bdf150b17"
+}

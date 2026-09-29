@@ -5,13 +5,28 @@ SmolLM2-135M-Instruct's responses to simple arithmetic expressions. It preserves
 exact prompts, edits, token IDs, completions, strict scores and paired uncertainty.
 It is a deliberately narrow experiment, not a new robustness benchmark.
 
-**Observed result:** 0/210 strict correct responses in the clean condition and
+**Historical observed result:** 0/210 strict correct responses in the clean condition and
 in each of the six typo conditions. This is a format/truncation floor, not
 evidence of typo robustness. All 1,470 planned evaluations were actually run.
 Read the [result interpretation](results/final/interpretation.md) alongside the
 accuracy tables. A separately wheel-installed CLI reproduced all 1,470
 scientific output records exactly with IPv4/IPv6 socket creation blocked.
-The 35-test suite and real-model cancellation/recovery check also passed.
+The original 35-test suite and real-model cancellation/recovery check also passed.
+
+## Separately frozen floor recovery
+
+**The new development gate failed:** the best extraction rate was 29/42 (69.0%),
+below the required 80%. All 126 completions finished, with no truncations; no new
+typo evaluation was run. Read the [floor diagnosis](results/floor-v2/interpretation.md).
+
+A second experiment tests three explicit answer formats and a 64-token output
+cap on 42 fresh development questions, disjoint from all historical instances
+and 210 reserved new evaluation questions. It requires at least 25% arithmetic
+accuracy and 80% unambiguous extraction before any new typo evaluation.
+The [preregistered protocol](docs/floor-v2/protocol.md) separates extraction,
+strict format compliance, arithmetic errors and truncation. The original results
+above retain their original scores. See [version 2 reproduction](docs/floor-v2/reproduction.md)
+for its separate installed CLI and one-command workflow.
 
 ## Read the evidence
 

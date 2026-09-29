@@ -1,0 +1,11 @@
+{
+  "excluded_fields": [
+    "elapsed_seconds",
+    "protocol_sha256",
+    "record_sha256"
+  ],
+  "matched_records": 42,
+  "reason": "Subset run protocol differs by its preregistered replay flag and case inventory",
+  "reference_sha256": "9be357f717b6a19ec4ded3726dfd0e6a9f4f45e2b1a5bfbbd9674aa4825630b7",
+  "replay_sha256": "3f19c51476c376527ec7ff909995ce071ddbda85841efb626a404194015a723f"
+}
