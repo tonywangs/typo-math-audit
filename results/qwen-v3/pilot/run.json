@@ -1,0 +1,7 @@
+{
+  "budget_seconds": 1800,
+  "created_utc": "2026-10-19T03:40:16.080229+00:00",
+  "phase": "pilot",
+  "pilot_evidence": null,
+  "protocol_sha256": "58ab42cd44d2513a4f9e0a7aaf7cc892821f935f7163db0ec886e1a044aa4bb2"
+}
